@@ -17,17 +17,13 @@ img{
 }
 
 .data{
-    display: flex;
-    padding-right: 70%;
-}
-.mudar{
-    text-align: right;
-    
-     
+    display:flex;
+    list-style: none;
+    padding:0;
+    margin:0;
+   
 }
 
-.inicio{
-    text-align: left;
-    width: 50%;
-     
+header li{
+    margin: 0 30px;
 }
