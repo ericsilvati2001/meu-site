@@ -1,0 +1,33 @@
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    width: auto
+}
+td{
+    text-align: center;
+}
+
+.exercicio{
+    text-align: left;
+}
+
+img{
+    height:280px;
+}
+
+.data{
+    display: flex;
+    padding-right: 70%;
+}
+.mudar{
+    text-align: right;
+    
+     
+}
+
+.inicio{
+    text-align: left;
+    width: 50%;
+     
+}

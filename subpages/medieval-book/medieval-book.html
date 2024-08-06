@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medieval Book</title>
+    <style>
+        
+        h1 {
+            font-family: 'Ancient';
+            font-size: 30px;
+        }
+
+        p {
+            font-family: 'Ancient';
+            font-size: 23px;
+        }
+
+        @font-face {
+            font-family: 'Ancient';
+            src: url(fonts/Ancient-Medium/Ancient-Medium.woff2) format('woff2'),
+                url(fonts/Ancient-Medium/Ancient-Medium.woff) format('woff');
+
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+        .container{
+            position: relative;
+            display: inline-block;
+        }
+
+        .imagem-livro{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .texto-sobreposto{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: left;
+            color: rgb(14, 14, 14);
+            font-size: 18px;
+            font-weight: normal;
+           
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/book-01-cleaned.png" alt="ancient book page" class="imagem-livro">
+         <div class="texto-sobreposto">
+            <h1>Virgo serena mater</h1>
+            <p>Virgo serena mater,
+
+                Hanc orationem audi;
+                
+                Ab pudore protege me
+                
+                Et de satana;
+                
+                Nam amor pueri tui
+                
+                Eripe me de proditione;
+                
+                Insanus et ferox sum;
+                
+                et nunc in captivitate ego sum.
+                
+                Pulchra es et nobilis
+                
+                Et plena suavitatis;
+                
+                Ex te prodiit pulchritudo;
+                
+                Summus Creator.
+                
+                Virgo, oro te
+                
+                Pro tuo sancto auxilio;
+                
+                Esto mitis et placidus mecum
+                
+                Pro amore tuo.</p>
+        </div>
+    </div>  
+</body>
+
+</html>
